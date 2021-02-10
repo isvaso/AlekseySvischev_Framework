@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Storyboard</title>
+
+</head>
+<style type="text/css">
+body {
+	background: #000;
+	margin: 0;
+	padding: 0;
+	font-family: Open Sans, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.stb {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+border: 0px solid green; 
+}
+
+.fr_container {
+	display: grid;
+}
+
+.fr_view {
+ 	width: 100%;
+}
+
+.fr_rows {
+}
+
+.fr_row {
+    width: 1200px;
+    height:750px;
+    vertical-align: middle;
+}
+
+.fr_item {
+    float: left;
+    /*cursor: pointer;*/
+    background-size: 300px;
+    width: 300px;
+    height: 250px;
+    opacity: 1;
+
+    font-size: 14px;
+    color: #666666;
+    padding: 5px;
+
+    -moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box;
+}
+
+.fr_item:hover {
+    opacity: 1;
+    font-size: 0px;
+}
+
+.fr_des {
+    float: left;
+    width: 300px;
+    height: 250px;
+
+    font-size: 13px;
+    color: #999999;
+    padding: 60px;
+    text-align: center;
+    vertical-align: middle;
+
+    -moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box;
+
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+
+
+
+
+      
+</style>
+<body>
+	<div class="stb">
+		<div class="fr_container">
+			<div class="fr_view">
+				<div class="fr_rows">
+					<div class="fr_row">
+						<div class="fr_des">1. Hand with lightning.</div>
+						<div class="fr_item" style="background-image: url(frames/1.jpg);">
+						</div>
+						<div class="fr_item" style="background-image: url(frames/2.jpg);">
+						</div>
+						<div class="fr_des">2. The camera moves away at orc's hand. Text and button are appears at right.</div>
+						<div class="fr_des">3. Demonstration of changing hero over from left to right diagonal move.</div>
+						<div class="fr_item" style="background-image: url(frames/3.jpg);">
+						</div>
+						<div class="fr_item" style="background-image: url(frames/4.jpg);">
+						</div>
+						<div class="fr_des">4. Showing up next personage.</div>
+						<div class="fr_des">5. Demonstration of changing hero over from left to right diagonal move.</div>
+						<div class="fr_item" style="background-image: url(frames/5.jpg);">
+						</div>
+						<div class="fr_item" style="background-image: url(frames/6.jpg);">
+						</div>
+						<div class="fr_des">6. Showing up last personage. Glaring the light over the edge of button.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
